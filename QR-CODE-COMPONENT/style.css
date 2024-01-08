@@ -3,8 +3,6 @@
 body {
     /* font-family: ; */
     font-size: 15px;
-    overflow-y: hidden;
-    overflow-x: hidden;
     background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
     height: 100vh;
 }
@@ -22,22 +20,21 @@ body {
     flex-direction: column;
     align-items: center;
     border-radius: 2rem;
-    width: 70vw;
-    height: 60vh;
+    width: 255px;
+    height: 445px;
     min-width: 180px;
     background-color: hsl(0, 0%, 100%);
 }
 
 .box_img {
-    width: 60vw;
-    height: 35vh;
+    width: 220px;
+    height: 260px;
     border-radius: 8%;
     background: url("./images/image-qr-code.png");
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
     clip-path: inset(10% 5% 10% 5% round 2rem 2rem 2rem 2rem);
-    margin: 1rem;
 }
 
 .box_txt{
@@ -45,6 +42,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0 2rem 0 2rem;
+    text-align: center;
 }
 
 .box_txt_title{
